@@ -1,0 +1,97 @@
+body {
+  background-color: #fff;
+}
+
+.navigation {
+  padding-right: 10px;
+  font-family: Chathura, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(2,43,58);
+}
+
+.logo {
+  font-family: New Rocker, fantasy;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(73,10,61);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  background-color: rgba(255,255,255,.75);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.navigation ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(255,255,255,.75);
+  text-align: center;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 1.5em;
+  border-radius: 20px 0px 0px 20px;
+  color: rgb(73,10,61)
+}
+
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  text-align: right;
+}
+
+.header {
+  background-image: url("https://cinemescope.files.wordpress.com/2016/02/fhd999dga_alan_rickman_002.jpg");
+  background-position: center center;
+  padding-top: 40%;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+#header-text {
+  text-align: center;
+  background-color: rgba(255,255,255,.75);
+  line-height: 2em;
+  padding: 1px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Athiti, cursive;
+  font-size: 4em;
+  font-weight: 100;
+  color: #BD1550;
+}
+
+h2 {
+  font-family: Athiti, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  color: rgb(73,10,61);
+}
+
+.about-text {
+  paddng: 15px;
+  display: inline;
+  border-color: #000;
+}
+
+p {
+  font-family: Chathura, sans-serif;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 300;
+  color: rgb(2,43,58);
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #AA4465;
+}
