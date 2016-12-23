@@ -37,7 +37,7 @@ body {
   color: rgb(73,10,61)
 }
 
-li {
+.navigation li {
   padding-left: 10px;
   padding-right: 10px;
   display: inline-block;
@@ -75,6 +75,16 @@ h2 {
   color: rgb(73,10,61);
 }
 
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+  font-family: Athiti, sans-serif;
+  font-weight: 600;
+  background-color: rgb(73,10,61);
+  border-radius: 20px;
+}
+
 .about-text {
   paddng: 15px;
   display: inline;
@@ -95,4 +105,42 @@ a {
   font-weight: 700;
   text-decoration: none;
   color: #AA4465;
+}
+
+.recommend {
+  padding: 0 12% 0 12%;
+}
+
+.recommend img {
+  max-width: 90%;
+  padding: 5% 5% 0 5%;
+}
+
+.film_title {
+  text-align: center;
+  color: #fff;
+  font-family: Athiti, sans-serif;
+  font-weight: 600;
+  background-color: rgb(73,10,61);
+  margin: 0 5% 5% 5%;
+}
+
+.recommend h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.recommend h5 {
+  font-size: 1em;
+  margin: 0;
+}
+
+.film {
+  border-width: medium;
+  border: 10px;
+  margin: 10px;
+  border-color: rgb(73,10,61);
+  display: inline-block;
+  width: 30%;
+  background-color: #D6E0DC;
 }
